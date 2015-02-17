@@ -1,0 +1,24 @@
+#menu_horizontal {  
+    padding: 0; 
+    margin: 0;  
+    text-align: center;
+}  
+#menu_horizontal li {  
+    display: inline;  
+    list-style: none;
+}  
+#menu_horizontal a {  
+    display:inline-block;  
+    margin: 0 3px;
+    text-decoration: none;
+    border: 1px solid silver;
+    padding: 12px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid gray;
+} 
+#menu_horizontal a:hover {
+	color: white;
+    border: 2px solid white;
+    background-color: red;
+}

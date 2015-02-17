@@ -1,0 +1,42 @@
+nav {
+    font: 1em Pixel ;
+    position        : fixed;
+    top             : 0;
+    left:0;
+    right:0;
+    padding: 0; 
+    list-style: none ;
+    text-align: center ;
+    background-color: silver;
+    background: linear-gradient(silver, gray);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+    z-index:1000;
+    font-size: 20px;
+}
+
+nav ul {
+    display: table; width: 100%; margin: 0px auto; padding: 0;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav ul li {
+    display:table-cell;
+    list-style:none;
+    margin-right: 10px ;
+    color: rgba(0, 0, 0, .7);    
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+}
+
+nav a:hover {
+    color: white;
+}
+
+#titre a {
+    font-size: 25px;
+}
+
+#recherche {
+    height: 20px;
+}

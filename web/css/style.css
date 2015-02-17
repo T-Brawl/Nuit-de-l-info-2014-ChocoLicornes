@@ -1,0 +1,95 @@
+html {
+	background-color: silver;
+	font-family: verdana;
+	color: red;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+#container {
+	position: relative;
+	width: 1000px;
+	margin: auto;
+	margin-top: 65px;
+}
+
+#menu, #page{
+	width: 58%;
+	margin: auto;
+}
+
+#menu {
+	border: 2px solid gray;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border: none;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#page {
+	min-height: 600px;
+	margin: auto;
+	border: 2px solid gray;
+	border-radius: 5px;
+	background-color: white;
+	color: black;
+	padding: 20px;
+	padding-top: 5px;
+}
+
+#actu {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#map {
+	position: absolute;
+	margin-top: 25px;
+	right: 0;
+	top: 195px;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+}
+
+#message {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#actu, #map, #message {
+	width: 15%;
+	height: 100px;
+	border: 2px solid gray;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+#actu, #message {
+	top: 59px;
+}
+
+.auth {
+	display: inline-block;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	text-align: right;
+}
+
+.auth input {
+	margin-bottom: 25px;
+}
